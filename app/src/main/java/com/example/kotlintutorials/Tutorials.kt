@@ -5,6 +5,7 @@ import com.example.kotlintutorials.topics.ClassesTopic
 import com.example.kotlintutorials.topics.DestructuringDeclarationsTopic
 import com.example.kotlintutorials.topics.ExceptionTopic
 import com.example.kotlintutorials.topics.ExtensionsTopic
+import com.example.kotlintutorials.topics.FunctionLiteralTopic
 import com.example.kotlintutorials.topics.FunctionOperatorsTopic
 import com.example.kotlintutorials.topics.GenericsTopic
 import com.example.kotlintutorials.topics.HigherOrderFunctionsTopic
@@ -15,8 +16,11 @@ import com.example.kotlintutorials.topics.LoopsTopic
 import com.example.kotlintutorials.topics.NullSafetyTopic
 
 fun main() {
+    /* FUNCTION LITERAL */
+    FunctionLiteralTopic.functionLiteralExample()
+
     /* INFIX FUNCTIONS */
-    InfixFunctionsTopic.infixExample()
+//    InfixFunctionsTopic.infixExample()
 
     /* DESTRUCTURING DECLARATIONS */
 //    DestructuringDeclarationsTopic.destructuringWithDataClass()
