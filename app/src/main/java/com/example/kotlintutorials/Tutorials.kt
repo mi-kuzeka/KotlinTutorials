@@ -14,7 +14,11 @@ import com.example.kotlintutorials.topics.NullSafetyTopic
 
 fun main() {
     /* GENERICS */
-    GenericsTopic.genericExample()
+    GenericsTopic.numberSumExample()
+//    GenericsTopic.customTripleExample()
+//    GenericsTopic.severalGenericTypesExample()
+//    GenericsTopic.shapesGenericExample()
+//    GenericsTopic.genericExample()
 
     /* HIGHER-ORDER FUNCTIONS */
 //    HigherOrderFunctionsTopic.groupingFold()
