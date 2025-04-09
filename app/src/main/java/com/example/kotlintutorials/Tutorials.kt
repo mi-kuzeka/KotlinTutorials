@@ -8,14 +8,18 @@ import com.example.kotlintutorials.topics.ExtensionsTopic
 import com.example.kotlintutorials.topics.FunctionOperatorsTopic
 import com.example.kotlintutorials.topics.GenericsTopic
 import com.example.kotlintutorials.topics.HigherOrderFunctionsTopic
+import com.example.kotlintutorials.topics.InfixFunctionsTopic
 import com.example.kotlintutorials.topics.LambdaTopic
 import com.example.kotlintutorials.topics.ListsTopic
 import com.example.kotlintutorials.topics.LoopsTopic
 import com.example.kotlintutorials.topics.NullSafetyTopic
 
 fun main() {
+    /* INFIX FUNCTIONS */
+    InfixFunctionsTopic.infixExample()
+
     /* DESTRUCTURING DECLARATIONS */
-    DestructuringDeclarationsTopic.destructuringWithDataClass()
+//    DestructuringDeclarationsTopic.destructuringWithDataClass()
 //    DestructuringDeclarationsTopic.destructuringCollections()
 //    DestructuringDeclarationsTopic.destructuringFunction()
 
