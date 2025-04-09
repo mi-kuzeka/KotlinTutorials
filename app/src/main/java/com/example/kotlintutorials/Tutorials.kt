@@ -2,6 +2,7 @@ package com.example.kotlintutorials
 
 import com.example.kotlintutorials.topics.AnonymousClassesTopic
 import com.example.kotlintutorials.topics.ClassesTopic
+import com.example.kotlintutorials.topics.DestructuringDeclarationsTopic
 import com.example.kotlintutorials.topics.ExceptionTopic
 import com.example.kotlintutorials.topics.ExtensionsTopic
 import com.example.kotlintutorials.topics.FunctionOperatorsTopic
@@ -13,8 +14,13 @@ import com.example.kotlintutorials.topics.LoopsTopic
 import com.example.kotlintutorials.topics.NullSafetyTopic
 
 fun main() {
+    /* DESTRUCTURING DECLARATIONS */
+    DestructuringDeclarationsTopic.destructuringWithDataClass()
+//    DestructuringDeclarationsTopic.destructuringCollections()
+//    DestructuringDeclarationsTopic.destructuringFunction()
+
     /* GENERICS */
-    GenericsTopic.numberSumExample()
+//    GenericsTopic.numberSumExample()
 //    GenericsTopic.customTripleExample()
 //    GenericsTopic.severalGenericTypesExample()
 //    GenericsTopic.shapesGenericExample()
@@ -28,6 +34,7 @@ fun main() {
     /* LAMBDAS */
 //    LambdaTopic.filteredSum()
 //    LambdaTopic.filterShapes()
+//    LambdaTopic.lambdaExample2()
 //    LambdaTopic.lambdaExample()
 
     /* EXCEPTIONS */

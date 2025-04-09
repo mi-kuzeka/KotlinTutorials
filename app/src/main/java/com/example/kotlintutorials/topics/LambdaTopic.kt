@@ -6,6 +6,11 @@ import com.example.kotlintutorials.shapes.Shape
 import com.example.kotlintutorials.shapes.Triangle
 
 object LambdaTopic {
+    fun lambdaExample2() {
+        val sum: (Int, Int) -> Int = { x: Int, y: Int -> x + y }
+        println(sum(4, 5))
+    }
+
     fun filteredSum() {
         val list = (1..10).toList()
         println(list.customSum { it % 2 == 1 })
