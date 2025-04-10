@@ -1,23 +1,25 @@
 package com.example.kotlintutorials
 
-import com.example.kotlintutorials.topics.AnonymousClassesTopic
-import com.example.kotlintutorials.topics.ClassesTopic
-import com.example.kotlintutorials.topics.DestructuringDeclarationsTopic
-import com.example.kotlintutorials.topics.ExceptionTopic
-import com.example.kotlintutorials.topics.ExtensionsTopic
-import com.example.kotlintutorials.topics.FunctionLiteralTopic
-import com.example.kotlintutorials.topics.FunctionOperatorsTopic
-import com.example.kotlintutorials.topics.GenericsTopic
-import com.example.kotlintutorials.topics.HigherOrderFunctionsTopic
-import com.example.kotlintutorials.topics.InfixFunctionsTopic
-import com.example.kotlintutorials.topics.LambdaTopic
-import com.example.kotlintutorials.topics.ListsTopic
-import com.example.kotlintutorials.topics.LoopsTopic
-import com.example.kotlintutorials.topics.NullSafetyTopic
+import com.example.kotlintutorials.topics.ScopeFunctionsTopic
 
 fun main() {
+    /* SCOPE FUNCTIONS */
+    ScopeFunctionsTopic.withExample()
+//    ScopeFunctionsTopic.runExample()
+//    ScopeFunctionsTopic.applyExample()
+//    ScopeFunctionsTopic.alsoExample()
+//    ScopeFunctionsTopic.letExample()
+
+    /* INLINE FUNCTIONS */
+//    InlineFunctionsTopic.inlineVariableExample()
+//    InlineFunctionsTopic.crossInlineModifierExample()
+//    InlineFunctionsTopic.nonLocalReturnExample()
+//    InlineFunctionsTopic.reifiedExample()
+//    InlineFunctionsTopic.inlineWithCoroutineExample()
+//    InlineFunctionsTopic.inlineExample()
+
     /* FUNCTION LITERAL */
-    FunctionLiteralTopic.functionLiteralExample()
+//    FunctionLiteralTopic.functionLiteralExample()
 
     /* INFIX FUNCTIONS */
 //    InfixFunctionsTopic.infixExample()

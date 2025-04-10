@@ -19,7 +19,7 @@ object FunctionLiteralTopic {
         }
     }
 
-    // Task here is a receiver
+    // 'Task' here is a receiver
     private fun doSomeTask(setTaskName: Task.() -> Unit) {
         Task(setTaskName)
     }
