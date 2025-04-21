@@ -19,4 +19,13 @@ object Utils {
 
     fun Double.roundTo(digitCount: Int): String =
         String.format(Locale.getDefault(), "%.${digitCount}f", this)
+
+    fun StringBuilder.reverseLines(): String {
+        val res = StringBuilder()
+        val splittedByLine = this.split("\n").reversed()
+        for (line in splittedByLine) {
+            res.appendLine(line)
+        }
+        return res.toString()
+    }
 }

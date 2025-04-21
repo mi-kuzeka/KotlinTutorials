@@ -1,10 +1,28 @@
 package com.example.kotlintutorials
 
+import com.example.kotlintutorials.Utils.reverseLines
+import com.example.kotlintutorials.topics.AllClassesInKotlinTopic
+import com.example.kotlintutorials.topics.NullSafetyTopic
 import com.example.kotlintutorials.topics.ScopeFunctionsTopic
 
 fun main() {
+
+    /* ALL CLASSES IN KOTLIN */
+//    AllClassesInKotlinTopic.innerClassExample()
+//    AllClassesInKotlinTopic.annotationClassExample()
+//    AllClassesInKotlinTopic.valueClassExample()
+//    AllClassesInKotlinTopic.anonymousClassExample()
+//    AllClassesInKotlinTopic.openClassExample()
+//    AllClassesInKotlinTopic.abstractClassExample()
+//    AllClassesInKotlinTopic.sealedClassExample()
+//    AllClassesInKotlinTopic.enumClassExample()
+//    AllClassesInKotlinTopic.dataObjectClassExample()
+//    AllClassesInKotlinTopic.objectClassExample()
+//    AllClassesInKotlinTopic.dataClassExample()
+//    AllClassesInKotlinTopic.normalClassExample()
+
     /* SCOPE FUNCTIONS */
-    ScopeFunctionsTopic.withExample()
+//    ScopeFunctionsTopic.withExample()
 //    ScopeFunctionsTopic.runExample()
 //    ScopeFunctionsTopic.applyExample()
 //    ScopeFunctionsTopic.alsoExample()
@@ -103,5 +121,22 @@ fun main() {
 //    LoopsTopic.whileLoopExample()
 
     /* NULL SAFETY */
+//    NullSafetyTopic.elvisOperatorExample()
 //    NullSafetyTopic.nullSafetyExample()
+
+
+//    val strings = StringBuilder()
+//    strings.append(
+//        "    /* ALL CLASSES IN KOTLIN */\n" +
+//                "//    AllClassesInKotlinTopic.anonymousClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.openClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.abstractClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.sealedClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.enumClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.dataObjectClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.objectClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.dataClassExample()\n" +
+//                "//    AllClassesInKotlinTopic.normalClassExample()"
+//    )
+//    println(strings.reverseLines())
 }
