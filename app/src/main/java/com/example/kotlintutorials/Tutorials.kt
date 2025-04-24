@@ -2,12 +2,14 @@ package com.example.kotlintutorials
 
 import com.example.kotlintutorials.Utils.reverseLines
 import com.example.kotlintutorials.topics.AllClassesInKotlinTopic
+import com.example.kotlintutorials.topics.ClassesDeepTutorialTopic
 import com.example.kotlintutorials.topics.NullSafetyTopic
 import com.example.kotlintutorials.topics.ScopeFunctionsTopic
 
 fun main() {
 
     /* ALL CLASSES IN KOTLIN */
+    ClassesDeepTutorialTopic.classesDeepTutorialExample()
 //    AllClassesInKotlinTopic.innerClassExample()
 //    AllClassesInKotlinTopic.annotationClassExample()
 //    AllClassesInKotlinTopic.valueClassExample()
