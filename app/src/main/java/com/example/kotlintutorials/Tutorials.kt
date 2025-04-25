@@ -3,13 +3,15 @@ package com.example.kotlintutorials
 import com.example.kotlintutorials.Utils.reverseLines
 import com.example.kotlintutorials.topics.AllClassesInKotlinTopic
 import com.example.kotlintutorials.topics.ClassesDeepTutorialTopic
+import com.example.kotlintutorials.topics.FunctionAsVariableTopic
+import com.example.kotlintutorials.topics.HigherOrderFunctionsTopic
 import com.example.kotlintutorials.topics.NullSafetyTopic
 import com.example.kotlintutorials.topics.ScopeFunctionsTopic
 
 fun main() {
 
     /* ALL CLASSES IN KOTLIN */
-    ClassesDeepTutorialTopic.classesDeepTutorialExample()
+//    ClassesDeepTutorialTopic.classesDeepTutorialExample()
 //    AllClassesInKotlinTopic.innerClassExample()
 //    AllClassesInKotlinTopic.annotationClassExample()
 //    AllClassesInKotlinTopic.valueClassExample()
@@ -60,6 +62,7 @@ fun main() {
 //    HigherOrderFunctionsTopic.groupingFold()
 //    HigherOrderFunctionsTopic.foldExample()
 //    HigherOrderFunctionsTopic.runExample()
+    HigherOrderFunctionsTopic.repeatFunctionExample()
 
     /* LAMBDAS */
 //    LambdaTopic.filteredSum()
@@ -84,6 +87,8 @@ fun main() {
     /* EXTENSION FUNCTIONS */
 //    ExtensionsTopic.printProductOfList()
 //    ExtensionsTopic.checkIfTheNumberIsPrime()
+
+//    FunctionAsVariableTopic.functionAsVariableExample()
 
     /* DEFAULT AND NAMED OPERATORS */
 //    FunctionOperatorsTopic.searchFor("What is the by operator in kotlin")

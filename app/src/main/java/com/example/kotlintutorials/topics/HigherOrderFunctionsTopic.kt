@@ -3,6 +3,10 @@ package com.example.kotlintutorials.topics
 import kotlin.math.roundToInt
 
 object HigherOrderFunctionsTopic {
+    fun repeatFunctionExample() {
+        repeat(5) { println("$it. He-he") }
+    }
+
     fun groupingFold() {
         val fruits = listOf("apple", "apricot", "banana", "blueberry", "cherry", "coconut")
         // collect only even length Strings
