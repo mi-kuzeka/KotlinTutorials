@@ -3,6 +3,7 @@ package com.example.kotlintutorials
 import com.example.kotlintutorials.Utils.reverseLines
 import com.example.kotlintutorials.topics.AllClassesInKotlinTopic
 import com.example.kotlintutorials.topics.ClassesDeepTutorialTopic
+import com.example.kotlintutorials.topics.ExtensionsTopic
 import com.example.kotlintutorials.topics.FunctionAsVariableTopic
 import com.example.kotlintutorials.topics.HigherOrderFunctionsTopic
 import com.example.kotlintutorials.topics.NullSafetyTopic
@@ -62,7 +63,7 @@ fun main() {
 //    HigherOrderFunctionsTopic.groupingFold()
 //    HigherOrderFunctionsTopic.foldExample()
 //    HigherOrderFunctionsTopic.runExample()
-    HigherOrderFunctionsTopic.repeatFunctionExample()
+//    HigherOrderFunctionsTopic.repeatFunctionExample()
 
     /* LAMBDAS */
 //    LambdaTopic.filteredSum()
@@ -84,9 +85,10 @@ fun main() {
 //    ClassesTopic.createCircle()
 //    ClassesTopic.createRect()
 
-    /* EXTENSION FUNCTIONS */
+    /* EXTENSION FUNCTIONS AND PROPERTIES */
 //    ExtensionsTopic.printProductOfList()
 //    ExtensionsTopic.checkIfTheNumberIsPrime()
+//    ExtensionsTopic.extensionPropertyExample()
 
 //    FunctionAsVariableTopic.functionAsVariableExample()
 
