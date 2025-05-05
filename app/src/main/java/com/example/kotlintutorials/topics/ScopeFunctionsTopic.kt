@@ -47,8 +47,8 @@ object ScopeFunctionsTopic {
     private var i = 0
 
     fun alsoExample() {
-        println(getSquaredI())
-        println(getSquaredI())
+        println(getSquaredI()) // 0
+        println(getSquaredI()) // 16
     }
 
     private fun getSquaredI() = (i * i).also { i += 4 }

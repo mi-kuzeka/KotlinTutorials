@@ -3,6 +3,7 @@ package com.example.kotlintutorials
 import com.example.kotlintutorials.Utils.reverseLines
 import com.example.kotlintutorials.topics.AllClassesInKotlinTopic
 import com.example.kotlintutorials.topics.ClassesDeepTutorialTopic
+import com.example.kotlintutorials.topics.CollectionsTopic
 import com.example.kotlintutorials.topics.ExtensionsTopic
 import com.example.kotlintutorials.topics.FunctionAsVariableTopic
 import com.example.kotlintutorials.topics.HigherOrderFunctionsTopic
@@ -10,6 +11,12 @@ import com.example.kotlintutorials.topics.NullSafetyTopic
 import com.example.kotlintutorials.topics.ScopeFunctionsTopic
 
 fun main() {
+    /* COLLECTIONS */
+    CollectionsTopic.mapExample()
+//    CollectionsTopic.setExample()
+//    CollectionsTopic.mutableListExample()
+//    CollectionsTopic.listExample()
+//    CollectionsTopic.arrayExample()
 
     /* ALL CLASSES IN KOTLIN */
 //    ClassesDeepTutorialTopic.classesDeepTutorialExample()
