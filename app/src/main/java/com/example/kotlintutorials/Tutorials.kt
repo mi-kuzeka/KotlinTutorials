@@ -4,6 +4,7 @@ import com.example.kotlintutorials.Utils.reverseLines
 import com.example.kotlintutorials.topics.AllClassesInKotlinTopic
 import com.example.kotlintutorials.topics.ClassesDeepTutorialTopic
 import com.example.kotlintutorials.topics.CollectionsTopic
+import com.example.kotlintutorials.topics.DestructuringDeclarationsTopic
 import com.example.kotlintutorials.topics.ExtensionsTopic
 import com.example.kotlintutorials.topics.FunctionAsVariableTopic
 import com.example.kotlintutorials.topics.HigherOrderFunctionsTopic
@@ -78,7 +79,7 @@ fun main() {
 //    HigherOrderFunctionsTopic.foldFunction()
 //    HigherOrderFunctionsTopic.reduceFunction()
 //    HigherOrderFunctionsTopic.sumOfFunction()
-    HigherOrderFunctionsTopic.sortedByFunction()
+//    HigherOrderFunctionsTopic.sortedByFunction()
 
     /* LAMBDAS */
 //    LambdaTopic.filteredSum()

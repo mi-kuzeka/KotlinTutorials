@@ -20,17 +20,17 @@ object DestructuringDeclarationsTopic {
         for ((name, sex, mood, cupsCount) in persons) {
             println(
                 "$name drunk $cupsCount cups of coffee and " +
-                        "${if (sex.equals(Sex.FEMALE)) "she" else "he"} is ${mood.name.lowercase()}."
+                        "${if (sex.equals(Sex.FEMALE)) "she" else "he"} is ${mood}."
             )
         }
     }
 
     fun destructuringFunction() {
         val pus = Pus(Mood.DISSATISFIED, 0)
-        println("Pus have drunk ${pus.cupsOfCoffee} cups of coffee and he is ${pus.mood.name.lowercase()}.")
+        println("Pus have drunk ${pus.cupsOfCoffee} cups of coffee and he is ${pus.mood}.")
         println("Let's cheer him up!")
         val (_, _, mood, cups) = pus.cheerUp()
-        println("Pus have drunk $cups cups of coffee and he is ${mood.name.lowercase()}!")
+        println("Pus have drunk $cups cups of coffee and he is $mood!")
     }
 
     fun destructuringWithDataClass() {
