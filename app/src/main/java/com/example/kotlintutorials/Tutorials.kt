@@ -12,11 +12,11 @@ import com.example.kotlintutorials.topics.ScopeFunctionsTopic
 
 fun main() {
     /* COLLECTIONS */
-    CollectionsTopic.mapExample()
-//    CollectionsTopic.setExample()
-//    CollectionsTopic.mutableListExample()
-//    CollectionsTopic.listExample()
 //    CollectionsTopic.arrayExample()
+//    CollectionsTopic.listExample()
+//    CollectionsTopic.mutableListExample()
+//    CollectionsTopic.setExample()
+//    CollectionsTopic.mapExample()
 
     /* ALL CLASSES IN KOTLIN */
 //    ClassesDeepTutorialTopic.classesDeepTutorialExample()
@@ -71,6 +71,14 @@ fun main() {
 //    HigherOrderFunctionsTopic.foldExample()
 //    HigherOrderFunctionsTopic.runExample()
 //    HigherOrderFunctionsTopic.repeatFunctionExample()
+//    HigherOrderFunctionsTopic.mapFunctionExample()
+//    HigherOrderFunctionsTopic.filterFunctionExample()
+//    HigherOrderFunctionsTopic.groupByFunction()
+//    HigherOrderFunctionsTopic.partitionFunction()
+//    HigherOrderFunctionsTopic.foldFunction()
+//    HigherOrderFunctionsTopic.reduceFunction()
+//    HigherOrderFunctionsTopic.sumOfFunction()
+    HigherOrderFunctionsTopic.sortedByFunction()
 
     /* LAMBDAS */
 //    LambdaTopic.filteredSum()
@@ -141,18 +149,16 @@ fun main() {
 //    NullSafetyTopic.nullSafetyExample()
 
 
+    /* --------------------- */
+    /* HELPER: REVERSE LINES */
+    /* --------------------- */
 //    val strings = StringBuilder()
 //    strings.append(
-//        "    /* ALL CLASSES IN KOTLIN */\n" +
-//                "//    AllClassesInKotlinTopic.anonymousClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.openClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.abstractClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.sealedClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.enumClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.dataObjectClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.objectClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.dataClassExample()\n" +
-//                "//    AllClassesInKotlinTopic.normalClassExample()"
+//        "//    CollectionsTopic.mapExample()\n" +
+//                "//    CollectionsTopic.setExample()\n" +
+//                "//    CollectionsTopic.mutableListExample()\n" +
+//                "//    CollectionsTopic.listExample()\n" +
+//                "//    CollectionsTopic.arrayExample()"
 //    )
 //    println(strings.reverseLines())
 }
